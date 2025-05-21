@@ -5,7 +5,7 @@ function drawNumber() {
     const max = parseInt(document.getElementById("max").value)
 
     if (isNaN(min) || isNaN(max) || min >= max) {
-        document.getElementById("resultado").innerText = "Por favor, insira um valores válidos!";
+        document.getElementById("resultado").innerText = "Por favor, insira valores válidos!";
         return;
     
     
